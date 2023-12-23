@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/icon/palette-fill.svg" type="image/x-icon">
+
+    <input type="hidden" id="url-destaque">
+
+    <script src="../js/config.js" defer></script>
+    <script src="../js/script.js" defer></script>
+
+    <script>
+        function addActive(itemId) {
+            $('#zoomModal').modal('show');
+
+            let imgs = document.querySelectorAll('.carousel-item');
+
+            imgs.forEach(img => {
+                img.classList.remove('active');
+            })
+
+            const carouselItem = document.getElementById(itemId);
+
+            carouselItem.classList.add('active');
+        }
+
+        const searchParams = new URLSearchParams(window.location.search);
+	    let albumId = searchParams.get('album');
+    </script>
+</head>
+
+<body onload="readPictures(albumId)">
+    <nav class="navbar navbar-expand-md bg-secondary">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-white" href="../index.html"><i class="bi-palette-fill"></i> ArtAlbum </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: right;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#obras">Obras</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container-fluid">
+
+            <div id="msg"></div>
+
+            <div class="row pt-5">
+                <div class="col">
+                    <h4 id="album-name"></h4>
+                </div>
+                
+                <div class="col">
+                    <h4 title="Favoritar"><i id="highlight-btn" value="" onclick="highlight(this)"></i></h4>
+                </div>
+
+                <hr />
+            </div>
+        </div>
+
+        
+        <section class="container-fluid">
+
+            <div class="row gx-1">
+                <div class="card-container my-2 col-xl-4 col-lg-3  col-sm-12">
+                    <img id="album-picture" src="" class="img-fluid" alt="">
+                </div>
+
+                <div class="info px-5 my-2 col-xl-4 col-lg-9 col-sm-12">
+                    <h4 class="">Sobre o artista</h4>
+                    <p id="album-desc" class="text-justify"></p>
+                </div>
+
+                <div class="local px-5 my-2 col-xl-4">
+                    <h4>Localização</h4>
+                    <p id="album-location"></p>
+
+                    <h4>Data de nascimento</h4>
+                    <p id="album-date"></p>
+                </div>
+            </div>
+        </section>
+
+
+        <h4 id="obras" class="pt-5">Obras</h4>
+        <hr />
+
+        <section class="container-fluid">
+            <div class="row gx-1" id="pictures">
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="about" class="bg-secondary text-white mt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Sobre</h5>
+
+                    <p class="text-justify">
+                        Segundo trabalho prático da matéria de Desenvolvimento de Interfaces Web. Esse trabalho tem como objetivo principal apresentar álbuns geolocalizados utilizando uma API RESTful para a obtenção dos dados. No meu caso, resolvi escolher como tema para os álbuns artistas e suas obras, sendo a localização a cidade de nascimento dos artistas.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Autoria</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong>Nome:</strong> Gustavo Felix
+                        </li>
+                        <li>
+                            <strong>Curso:</strong> Ciência da computação
+                        </li>
+                        <li>
+                            <strong>Turma:</strong> Tarde
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Redes sociais</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://github.com/gusfelix" target="_blank" class="text-white">
+                                <i class="bi bi-github mr-2"></i>&nbsp; GitHub</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/gustavo-felix-30a5b3226/" target="_blank" class="text-white">
+                                <i class="bi bi-linkedin mr-2"></i>&nbsp; LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="zoomModal" tabindex="-1" aria-labelledby="zoomModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="zoomModalLabel">Detalhes da obra</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselZoomCaptions" class="carousel slide">
+                        <div class="carousel-inner">
+
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselZoomCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselZoomCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

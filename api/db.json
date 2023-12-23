@@ -1,0 +1,600 @@
+{
+  "albuns": [
+    {
+      "id": 1,
+      "title": "Vincent Van Gogh",
+      "subtitle": "Pintor expressionista",
+      "desc": "Vincent van Gogh, um dos pintores mais icônicos da história da arte, nasceu em 1853. Sua vida e obra são marcadas por uma profunda paixão pela arte e uma busca incansável por expressar suas emoções por meio das cores e da pincelada. Van Gogh é famoso por suas pinturas emocionais e intensamente pessoais, como 'Noite Estrelada' e 'O Quarto em Arles', que capturam a beleza e a angústia da existência humana. Sua carreira artística foi marcada por desafios pessoais, mas seu legado perdura como um testemunho duradouro da capacidade da arte de tocar o coração das pessoas e transcender as barreiras do tempo e da cultura.",
+      "location": "Zundert, Países Baixos",
+      "latLong": [
+        4.65556,
+        51.47167
+      ],
+      "date": "30 de março de 1853",
+      "cover": "assets/img/van-gogh/Vincent_van_Gogh_profile.jpg",
+      "url_destaque": "assets/img/van-gogh/Van_Gogh_-_Starry_Night_-_Carousel.jpg",
+      "highlight": true
+    },
+    {
+      "id": 2,
+      "title": "Jean-Michel Basquiat",
+      "subtitle": "Arte urbana moderna",
+      "desc": "Jean-Michel Basquiat, um ícone da arte no século XX, nasceu nos Estados Unidos em 1960. Sua arte audaciosa e expressiva desafiou convenções, combinando cores vibrantes, símbolos, e palavras em um estilo único. Suas pinturas exploravam questões sociais e raciais, proporcionando uma visão contundente da sociedade. Basquiat colaborou com Andy Warhol, unindo diferentes gerações e estilos. Sua breve vida deixou um impacto profundo na arte contemporânea, destacando vozes marginalizadas e experiências pessoais. Sua arte continua a inspirar, questionar e emocionar, mantendo sua relevância ao longo do tempo. ",
+      "location": "Nova Iorque, Estados Unidos",
+      "latLong": [
+        -74.00597,
+        40.71427
+      ],
+      "date": "22 de dezembro de 1960",
+      "cover": "assets/img/basquiat/jean-michel-basquiat-profile.jpg",
+      "url_destaque": "assets/img/basquiat/bird_on_money_basquiat_carousel.jpg",
+      "highlight": true
+    },
+    {
+      "id": 3,
+      "title": "Salvador Dalí",
+      "subtitle": "Surrealismo famoso",
+      "desc": "Salvador Dalí, o genial artista do século XX, nasceu em 1904 na Catalunha, Espanha. Sua arte surrealista é uma jornada fascinante pelo subconsciente humano, onde a realidade se mistura com o sonho de maneira única. Dalí é conhecido por suas pinturas detalhadas e minuciosas, onde objetos do cotidiano são transformados em visões extraordinárias. Sua paleta de cores é vibrante, e sua técnica é inconfundível, muitas vezes desafiando as leis da física e da lógica. ",
+      "location": "Figueres, Espanha",
+      "latLong": [
+        2.96163,
+        42.26645
+      ],
+      "date": "11 de maio de 1904",
+      "cover": "assets/img/dali/salvador-dali-profile.jpg",
+      "url_destaque": "assets/img/dali/persistencia-da-memoria-salvador-dali-carousel.jpg",
+      "highlight": true
+    },
+    {
+      "id": 4,
+      "title": "Claude Monet",
+      "subtitle": "Mestre impressionista",
+      "desc": "Claude Monet, um mestre impressionista francês, é um dos artistas mais influentes da história da arte. Nascido em 1840, ele deixou um legado duradouro ao revolucionar a forma como percebemos a luz e a natureza. Suas pinturas, como 'Mulher com sombrinha' e 'Impressão, Nascer do Sol', capturam a efemeridade da luz e da atmosfera. Para Monet, a arte era uma busca incessante pela representação das nuances da natureza e das variações da luz. Seu uso distinto de pinceladas soltas e cores vibrantes deu origem ao movimento impressionista, que desafiou as convenções artísticas da época.",
+      "location": "Rue Laffitte, Paris, França",
+      "latLong": [
+        2.3488,
+        48.85341
+      ],
+      "date": "14 de novembro de 1840",
+      "cover": "assets/img/monet/Claude_Monet-profile.jpg",
+      "url_destaque": "assets/img/monet/impressao-nascer-do-sol-carousel.jpg",
+      "highlight": false
+    },
+    {
+      "id": 5,
+      "title": "Candido Portinari",
+      "subtitle": "Arte brasileira",
+      "desc": "Candido Portinari, um dos maiores artistas brasileiros do século XX, deixou um legado artístico que ecoa através das gerações. Nascido em 1903, ele dedicou sua vida à criação de obras que celebram a cultura e a alma do Brasil. Sua maestria na representação de temas sociais e humanos é uma característica marcante de sua arte. Portinari é amplamente conhecido por suas obras-primas, como 'O mestiço' e 'Os retirantes', que exploram a vida cotidiana e as questões profundas da humanidade com uma profundidade emocional única. Suas pinturas não apenas capturam a beleza e a complexidade da vida brasileira, mas também servem como um espelho para a consciência social.",
+      "location": "Brodowski, São Paulo",
+      "latLong": [
+        -47.6592,
+        -20.9842
+      ],
+      "date": "29 de dezembro de 1903",
+      "cover": "assets/img/portinari/candido-portinari-profile.jpg",
+      "url_destaque": "assets/img/portinari/a-primeira-missa-no-brasil-carousel.jpg",
+      "highlight": false
+    },
+    {
+      "id": 6,
+      "title": "Frida Kahlo",
+      "subtitle": "Autorretratos icônicos",
+      "desc": "Frida Kahlo, uma das artistas mais icônicas e apaixonadas do século XX, deixou um legado poderoso ao explorar sua vida e suas lutas pessoais em suas obras. Nascida em 1907 no México, ela utilizou a pintura como uma forma de autoexpressão e um meio de desafiar convenções.As pinturas de Frida, como 'Autorretrato com Colar de Espinhos e Beija-flor' e 'As Duas Fridas', revelam sua intensa introspecção, dor e força interior.",
+      "location": "Coyoacán, México",
+      "latLong": [
+        -99.16174,
+        19.3467
+      ],
+      "date": "6 de julho de 1907",
+      "cover": "assets/img/frida-kahlo/frida-kahlo-profile.jpg",
+      "url_destaque": "assets/img/frida-kahlo/as-duas-fridas-carousel.jpg",
+      "highlight": false
+    },
+    {
+      "id": 7,
+      "title": "Tarsila do Amaral",
+      "subtitle": "Vanguarda brasileira",
+      "desc": "Tarsila do Amaral, uma das figuras mais reverenciadas na história da arte brasileira, deixou um legado eterno ao imortalizar a identidade cultural e as questões sociais do Brasil em suas pinturas. Nascida em 1886, sua maestria artística brilha em obras icônicas como 'Abaporu' e 'Operários', que revelam a essência do país com profundidade emocional, cores vibrantes e formas ousadas. Para Tarsila, a arte era mais do que uma mera representação visual; era uma voz poderosa para a transformação social. Ela desafiou convenções e foi pioneira no movimento modernista brasileiro, trazendo uma nova perspectiva à arte do país.",
+      "location": "Capivari, São Paulo",
+      "latLong": [
+        -47.5095,
+        -22.9949
+      ],
+      "date": "1 de setembro de 1886",
+      "cover": "assets/img/tarsila-do-amaral/Tarsila_do_Amaral_profile.jpg",
+      "url_destaque": "assets/img/tarsila-do-amaral/abaporu-carousel.jpg",
+      "highlight": false
+    },
+    {
+      "id": 8,
+      "title": "Pablo Picasso",
+      "subtitle": "Gênio do cubismo",
+      "desc": "Pablo Picasso, um dos maiores gênios da arte do século XX, deixou um legado imortal ao explorar e redefinir constantemente os limites da expressão artística. Nascido em 1881 na Espanha, suas obras, como 'Guernica' e 'Les Demoiselles d'Avignon', transcendem o tempo e capturam a complexidade da experiência humana. Para Picasso, a arte era uma jornada de autodescoberta e experimentação ininterrupta. Ele desafiou as normas tradicionais, co-fundando o movimento cubista e contribuindo para várias fases artísticas, incluindo o surrealismo.",
+      "location": "Málaga, Espanha",
+      "latLong": [
+        -4.42034,
+        36.72016
+      ],
+      "date": "25 de outubro de 1881",
+      "cover": "assets/img/picasso/pablo-picasso-profile.jpg",
+      "url_destaque": "assets/img/picasso/Guernica-carousel.jpg",
+      "highlight": true
+    }
+  ],
+  "destaques": [
+    {
+      "id": 1,
+      "url": "assets/img/van-gogh/Van_Gogh_-_Starry_Night_-_Carousel.jpg",
+      "id_album": 1,
+      "title": "Vincent Van Gogh"
+    },
+    {
+      "id": 2,
+      "url": "assets/img/basquiat/bird_on_money_basquiat_carousel.jpg",
+      "id_album": 2,
+      "title": "Jean-Michel Basquiat"
+    },
+    {
+      "id": 8,
+      "url": "assets/img/picasso/Guernica-carousel.jpg",
+      "id_album": 8,
+      "title": "Pablo Picasso"
+    },
+    {
+      "id": 3,
+      "url": "assets/img/dali/persistencia-da-memoria-salvador-dali-carousel.jpg",
+      "id_album": 3,
+      "title": "Salvador Dalí"
+    }
+  ],
+  "pictures": [
+    {
+      "id": 1,
+      "url": "../assets/img/van-gogh/starry-night.jpg",
+      "desc": "Noite Estrelada",
+      "year": "1889",
+      "id_album": 1
+    },
+    {
+      "id": 2,
+      "url": "../assets/img/van-gogh/amendoeira-em-flor.jpg",
+      "desc": "Amendoeira em Flor",
+      "year": "1890",
+      "id_album": 1
+    },
+    {
+      "id": 3,
+      "url": "../assets/img/van-gogh/campo-de-trigo-com-ciprestes.jpg",
+      "desc": "Campo de Trigo com Ciprestes",
+      "year": "1889",
+      "id_album": 1
+    },
+    {
+      "id": 4,
+      "url": "../assets/img/van-gogh/o-quarto.jpg",
+      "desc": "O Quarto",
+      "year": "1888",
+      "id_album": 1
+    },
+    {
+      "id": 5,
+      "url": "../assets/img/van-gogh/os-girassois.jpg",
+      "desc": "Os Girassóis",
+      "year": "1889",
+      "id_album": 1
+    },
+    {
+      "id": 6,
+      "url": "../assets/img/van-gogh/self-portrait-with-bandaged-ear.jpg",
+      "desc": "Autorretrato com a orelha cortada",
+      "year": "1889",
+      "id_album": 1
+    },
+    {
+      "id": 7,
+      "url": "../assets/img/van-gogh/terrac-o-do-cafe-a-noite.jpg",
+      "desc": "Terraço do Café à Noite",
+      "year": "1888",
+      "id_album": 1
+    },
+    {
+      "id": 8,
+      "url": "../assets/img/van-gogh/campo-de-trigo-com-corvos.jpg",
+      "desc": "Campo de Trigo com Corvos",
+      "year": "1890",
+      "id_album": 1
+    },
+    {
+      "id": 9,
+      "url": "../assets/img/basquiat/cabeza-cke.webp",
+      "desc": "Cabeza",
+      "year": "1982",
+      "id_album": 2
+    },
+    {
+      "id": 10,
+      "url": "../assets/img/basquiat/cavalgando-com-a-morte-cke.webp",
+      "desc": "Cavalgando com a Morte",
+      "year": "1988",
+      "id_album": 2
+    },
+    {
+      "id": 11,
+      "url": "../assets/img/basquiat/caveira-cke.webp",
+      "desc": "Caveira",
+      "year": "1981",
+      "id_album": 2
+    },
+    {
+      "id": 12,
+      "url": "../assets/img/basquiat/deuslei-1-cke.webp",
+      "desc": "Deus, Lei",
+      "year": "1981",
+      "id_album": 2
+    },
+    {
+      "id": 13,
+      "url": "../assets/img/basquiat/dispensadordepez-cke.webp",
+      "desc": "Dispensador de Pez",
+      "year": "1984",
+      "id_album": 2
+    },
+    {
+      "id": 14,
+      "url": "../assets/img/basquiat/irony-of-the-negro-policeman-1981-cke.jpg",
+      "desc": "Ironia do policial negro",
+      "year": "1981",
+      "id_album": 2
+    },
+    {
+      "id": 15,
+      "url": "../assets/img/basquiat/passaronodinheiro-cke.jpg",
+      "desc": "Pássaro no Dinheiro",
+      "year": "1981",
+      "id_album": 2
+    },
+    {
+      "id": 16,
+      "url": "../assets/img/basquiat/pesoliquido-cke.webp",
+      "desc": "Peso Líquido",
+      "year": "1981",
+      "id_album": 2
+    },
+    {
+      "id": 17,
+      "url": "../assets/img/dali/a-persistencia-da-memoria-1931.jpg",
+      "desc": "A Persistência da Memória",
+      "year": "1931",
+      "id_album": 3
+    },
+    {
+      "id": 18,
+      "url": "../assets/img/dali/a-tentacao-de-santo-antao-1946.jpg",
+      "desc": "A Tentação de Santo Antão",
+      "year": "1946",
+      "id_album": 3
+    },
+    {
+      "id": 19,
+      "url": "../assets/img/dali/angelus-arquitectonico-de-millet-1933.jpg",
+      "desc": "Angelus Arquitectonico de Millet",
+      "year": "1933",
+      "id_album": 3
+    },
+    {
+      "id": 20,
+      "url": "../assets/img/dali/cisnesRefletindoElefantes-1937.jpg",
+      "desc": "Cisnes Refletindo Elefantes",
+      "year": "1937",
+      "id_album": 3
+    },
+    {
+      "id": 21,
+      "url": "../assets/img/dali/Metamorfose-de-Narciso-1937.jpg",
+      "desc": "Metamorfose de Narciso",
+      "year": "1937",
+      "id_album": 3
+    },
+    {
+      "id": 22,
+      "url": "../assets/img/dali/nascimento-de-uma-divindade-1960.jpg",
+      "desc": "Nascimento de uma Divindade",
+      "year": "1960",
+      "id_album": 3
+    },
+    {
+      "id": 23,
+      "url": "../assets/img/dali/o-toreador-alucinogeno-1970.jpg",
+      "desc": "O Toreador Alucinogeno",
+      "year": "1970",
+      "id_album": 3
+    },
+    {
+      "id": 24,
+      "url": "../assets/img/dali/os-elefantes-1948.jpg",
+      "desc": "Os Elefantes",
+      "year": "1948",
+      "id_album": 3
+    },
+    {
+      "id": 25,
+      "url": "../assets/img/monet/campo-de-papoulas-perto-de-argenteuil-1875.jpg",
+      "desc": "Campo de Papoulas Perto de Argenteuil",
+      "year": "1875",
+      "id_album": 4
+    },
+    {
+      "id": 26,
+      "url": "../assets/img/monet/impressao-nascer-do-sol-1872.webp",
+      "desc": "Impressão, Nascer do Sol",
+      "year": "1872",
+      "id_album": 4
+    },
+    {
+      "id": 27,
+      "url": "../assets/img/monet/les-tuileries-1876.webp",
+      "desc": "Les Tuileries",
+      "year": "1876",
+      "id_album": 4
+    },
+    {
+      "id": 28,
+      "url": "../assets/img/monet/lirios-de-agua-1919.jpg",
+      "desc": "Lírios de Água",
+      "year": "1919",
+      "id_album": 4
+    },
+    {
+      "id": 29,
+      "url": "../assets/img/monet/meules-1890.webp",
+      "desc": "Meules",
+      "year": "1890",
+      "id_album": 4
+    },
+    {
+      "id": 30,
+      "url": "../assets/img/monet/mulher-com-sombrinha-1875.webp",
+      "desc": "Mulher com Sombrinha",
+      "year": "1875",
+      "id_album": 4
+    },
+    {
+      "id": 31,
+      "url": "../assets/img/monet/mulheres-no-jardim-1866.webp",
+      "desc": "Mulheres no Jardim",
+      "year": "1866",
+      "id_album": 4
+    },
+    {
+      "id": 32,
+      "url": "../assets/img/monet/ponte-sobre-uma-lagoa-de-lirios-de-agua-1899.webp",
+      "desc": "Ponte sobre uma Lagoa de Lírios de Água",
+      "year": "1899",
+      "id_album": 4
+    },
+    {
+      "id": 33,
+      "url": "../assets/img/portinari/a-primeira-missa-no-brasil-1948.webp",
+      "desc": "A Primeira Missa no Brasil",
+      "year": "1948",
+      "id_album": 5
+    },
+    {
+      "id": 34,
+      "url": "../assets/img/portinari/crianc-a-morta-1944.webp",
+      "desc": "Criança Morta",
+      "year": "1944",
+      "id_album": 5
+    },
+    {
+      "id": 35,
+      "url": "../assets/img/portinari/meninos-soltando-pipa-1947.webp",
+      "desc": "Meninos Soltando Pipa",
+      "year": "1947",
+      "id_album": 5
+    },
+    {
+      "id": 36,
+      "url": "../assets/img/portinari/o-cafe-1935.webp",
+      "desc": "O Café",
+      "year": "1935",
+      "id_album": 5
+    },
+    {
+      "id": 37,
+      "url": "../assets/img/portinari/o-lavrador-de-cafe-1934.webp",
+      "desc": "O Lavrador de Café",
+      "year": "1934",
+      "id_album": 5
+    },
+    {
+      "id": 38,
+      "url": "../assets/img/portinari/o-mestic-o-1934.webp",
+      "desc": "O Mestiço",
+      "year": "1934",
+      "id_album": 5
+    },
+    {
+      "id": 39,
+      "url": "../assets/img/portinari/paisagem-com-bananeiras-1927.webp",
+      "desc": "Paisagem com Bananeiras",
+      "year": "1927",
+      "id_album": 5
+    },
+    {
+      "id": 40,
+      "url": "../assets/img/portinari/retirantes-1944.webp",
+      "desc": "Retirantes",
+      "year": "1944",
+      "id_album": 5
+    },
+    {
+      "id": 41,
+      "url": "../assets/img/frida-kahlo/as-duas-fridas-1939.webp",
+      "desc": "As Duas Fridas",
+      "year": "1939",
+      "id_album": 6
+    },
+    {
+      "id": 42,
+      "url": "../assets/img/frida-kahlo/autorretrato-com-colar-de-espinhos-e-beija-flor-1940.jpg",
+      "desc": "Autorretrato com Colar de Espinhos e Beija-Flor",
+      "year": "1940",
+      "id_album": 6
+    },
+    {
+      "id": 43,
+      "url": "../assets/img/frida-kahlo/autorretrato-com-vestido-de-veludo-1926.webp",
+      "desc": "Autorretrato com Vestido de Veludo",
+      "year": "1926",
+      "id_album": 6
+    },
+    {
+      "id": 44,
+      "url": "../assets/img/frida-kahlo/cocos-chorando-1951.jpg",
+      "desc": "Cocos Chorando",
+      "year": "1951",
+      "id_album": 6
+    },
+    {
+      "id": 45,
+      "url": "../assets/img/frida-kahlo/Diego-e-eu-1929.webp",
+      "desc": "Diego e Eu",
+      "year": "1929",
+      "id_album": 6
+    },
+    {
+      "id": 46,
+      "url": "../assets/img/frida-kahlo/frida-e-diego-rivera-1931.webp",
+      "desc": "Frida e Diego Rivera",
+      "year": "1931",
+      "id_album": 6
+    },
+    {
+      "id": 47,
+      "url": "../assets/img/frida-kahlo/o-veado-ferido-1946.webp",
+      "desc": "O Veado Ferido",
+      "year": "1946",
+      "id_album": 6
+    },
+    {
+      "id": 48,
+      "url": "../assets/img/frida-kahlo/viva-a-vida-1954.jpg",
+      "desc": "Viva a Vida",
+      "year": "1954",
+      "id_album": 6
+    },
+    {
+      "id": 49,
+      "url": "../assets/img/tarsila-do-amaral/a-cuca-1924.webp",
+      "desc": "A Cuca",
+      "year": "1924",
+      "id_album": 7
+    },
+    {
+      "id": 50,
+      "url": "../assets/img/tarsila-do-amaral/abaporu-1928.webp",
+      "desc": "Abaporu",
+      "year": "1928",
+      "id_album": 7
+    },
+    {
+      "id": 51,
+      "url": "../assets/img/tarsila-do-amaral/antropofagia-1929.webp",
+      "desc": "Antropofagia",
+      "year": "1929",
+      "id_album": 7
+    },
+    {
+      "id": 52,
+      "url": "../assets/img/tarsila-do-amaral/autorretrato-1923.webp",
+      "desc": "Autorretrato",
+      "year": "1923",
+      "id_album": 7
+    },
+    {
+      "id": 53,
+      "url": "../assets/img/tarsila-do-amaral/costureiras-1936.webp",
+      "desc": "Costureiras",
+      "year": "1936",
+      "id_album": 7
+    },
+    {
+      "id": 54,
+      "url": "../assets/img/tarsila-do-amaral/negra-1923.webp",
+      "desc": "Negra",
+      "year": "1923",
+      "id_album": 7
+    },
+    {
+      "id": 55,
+      "url": "../assets/img/tarsila-do-amaral/operarios-1933.webp",
+      "desc": "Operários",
+      "year": "1933",
+      "id_album": 7
+    },
+    {
+      "id": 56,
+      "url": "../assets/img/tarsila-do-amaral/segunda-classe-1933.webp",
+      "desc": "Segunda Classe",
+      "year": "1933",
+      "id_album": 7
+    },
+    {
+      "id": 57,
+      "url": "../assets/img/picasso/Autorretrato-1907.webp",
+      "desc": "Autorretrato",
+      "year": "1907",
+      "id_album": 8
+    },
+    {
+      "id": 58,
+      "url": "../assets/img/picasso/Banhista-Sentada-1930.webp",
+      "desc": "Banhista Sentada",
+      "year": "1930",
+      "id_album": 8
+    },
+    {
+      "id": 59,
+      "url": "../assets/img/picasso/Dora-Maar-com-Gato-1937.webp",
+      "desc": "Dora Maar com Gato",
+      "year": "1937",
+      "id_album": 8
+    },
+    {
+      "id": 60,
+      "url": "../assets/img/picasso/Guernica-1937.webp",
+      "desc": "Guernica",
+      "year": "1937",
+      "id_album": 8
+    },
+    {
+      "id": 61,
+      "url": "../assets/img/picasso/Les-Demoiselles-dAvignon-1907.webp",
+      "desc": "Les Demoiselles d'Avignon",
+      "year": "1907",
+      "id_album": 8
+    },
+    {
+      "id": 62,
+      "url": "../assets/img/picasso/Natureza-Morta-Com-Cranios-de-Touros-1942.webp",
+      "desc": "Natureza Morta Com Crânios de Touros",
+      "year": "1942",
+      "id_album": 8
+    },
+    {
+      "id": 63,
+      "url": "../assets/img/picasso/O-sonho-1932.webp",
+      "desc": "O Sonho",
+      "year": "1932",
+      "id_album": 8
+    },
+    {
+      "id": 64,
+      "url": "../assets/img/picasso/Three-Musicians-1921.webp",
+      "desc": "Three Musicians",
+      "year": "1921",
+      "id_album": 8
+    }
+  ]
+}
